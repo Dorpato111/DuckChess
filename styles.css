@@ -1,0 +1,204 @@
+body {
+    background-color: rgba(48, 46, 43, 1);
+    text-align: center;
+    /*Uso del modelo de caja*/
+    margin-bottom: 130px;
+    color: white;
+}
+
+main {
+    /*Uso del modelo de caja*/
+    margin: 20px;
+}
+
+header p {
+    text-decoration: overline;
+}
+
+
+
+h2 {
+    font-family: sans-serif;
+    font-size: 19px;
+    font-weight: bold;
+}
+
+
+
+nav #temas {
+    /*Uso del modelo de caja*/
+    background-color: rgb(32, 32, 32);
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+
+
+}
+
+nav {
+    /*Uso del modelo de caja*/
+    margin: 0;
+}
+
+nav a {
+    /*Uso del modelo de caja*/
+    border: 1px solid black;
+    color: white;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    padding: 15px;
+
+}
+
+nav a:hover {
+    /*Uso del modelo de caja*/
+    background-color: rgb(20, 20, 20);
+    border: 1px solid white;
+}
+nav .lista {
+    /*Uso del modelo de caja*/
+    margin-right: 50px;
+    margin-left: 50px;
+}
+
+p a, table a {
+    color: rgb(0, 136, 255);
+}
+
+p a:hover, table a:hover {
+    background-color: rgb(154, 208, 255);
+}
+
+p a:visited, table a:visited {
+    color: rgb(0, 83, 155);
+}
+
+div ul li {
+    /*Uso del modelo de caja*/
+    list-style: none;
+    padding-bottom: 10px;
+}
+
+div ul li strong em {
+    font-size: 30px;
+}
+div ul li strong {
+    font-size: 20px;
+}
+
+
+
+div ul {
+    /*Uso del modelo de caja*/
+    padding: 0;
+    margin: 0 auto;
+}
+
+div a h2 {
+    font-size: 30px;
+}
+
+#title {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-shadow: rgb(105, 105, 105) 4px 1px 1px;
+    text-decoration: underline;
+
+
+}
+
+.texto, #text1, #text2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+
+#info {
+    color: lightblue;
+}
+
+#description {
+    color: green;
+}
+
+h3 {
+    color: lightblue;
+    font-size: 19px;
+}
+
+#table {
+    /*Uso del modelo de caja*/
+    background-color: black;
+    width: 650px;
+    margin: 0 auto;
+}
+
+#cabecera {
+    background-color: rgb(83, 78, 78);
+}
+
+.datos {
+    background-color: rgb(122, 118, 110);
+    text-align-last: center;
+    height: 100px;
+}
+
+.campeon {
+    height: 100px;
+}
+
+#pawn {
+    /*Uso de la posición fixed*/ 
+    width: 150px;
+    position: fixed;
+    bottom: 5px;
+    right: -5px;
+}
+
+#sec5 {
+    /*Uso de la posición relative*/
+    position: relative;
+    right: 250px;
+    bottom: -50px;
+}
+
+aside {
+    /*Uso de la posición relative*/
+    position: relative;
+    left: 800px;
+    bottom: 150px;
+    margin: 0;
+    padding: 0;
+    width: 0px;
+    border: 0px solid black;
+
+}
+
+footer {
+    width: 0;
+}
+
+.card-body {
+    position: relative;
+    left: 0px;
+    top: 0px;
+    background-color: rgb(122, 118, 110);
+    color: white;
+}
+
+#recomendacion {
+    position: relative;
+    bottom: 50px;
+    right: 250px;
+    margin: 0;
+    padding: 0;
+}
+
+.card-header {
+    background-color: rgb(83, 78, 78);
+}
+
+#liveToastBtn {
+    position: relative;
+    top: 10px;
+}
